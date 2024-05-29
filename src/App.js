@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Toggle from './Toggle';
+import VisibilityToggle from './VisibilityToggle';
+import FormData from './FormData';
+import ThemeChange from './ThemeChange';
+import DynamicList from './DynamicList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Toggle></Toggle>
+      <VisibilityToggle></VisibilityToggle>
+      <FormData></FormData>
+      <ThemeChange></ThemeChange>
+      <DynamicList></DynamicList>
     </div>
   );
 }
